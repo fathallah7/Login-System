@@ -1,16 +1,24 @@
 # Login and Registration System
 
-This project is a simple login and registration system built using PHP and MySQL. It features a beautiful user interface powered by Bootstrap, with the ability to switch between the login and registration forms.
+This project is a login and registration system built using PHP and MySQL. 
 
 ## Features
 
 - User registration.
 - User login.
 - Success and error messages for registration and login.
-- Interactive user interface using Bootstrap.
+- Interactive user interface using Bootstrap. 
 - Session management to store user data after login.
 - A homepage that displays the user's name after login.
 - Logout functionality.
+
+  ## Technologies Used
+
+- **PHP**: For data processing and database connection.
+- **MySQL**: For storing user data.
+- **Bootstrap**: For front-end styling.
+- **JavaScript**: For form interactivity.
+  
 
 ## Screenshots
 
@@ -40,49 +48,3 @@ This project is a simple login and registration system built using PHP and MySQL
    $user = 'username'; // Database username
    $password = 'password'; // Database password
    $db = 'login'; // Database name
-How to Use
-Register a new account:
-
-Click on "Sign up" on the login page.
-
-Fill out the form (First Name, Last Name, Email, and Password).
-
-Click "SignUp" to complete the registration.
-
-Login:
-
-Enter your email and password in the login form.
-
-Click "Sign In" to log in.
-
-Logout:
-
-Click "LogOut" on the homepage to log out.
-
-File Structure
-index.php: The main page containing the login and registration forms.
-
-registerANDlogin.php: Handles login and registration requests.
-
-home.php: The homepage after login.
-
-logout.php: Handles logout functionality.
-
-connect.php: Database connection file.
-
-msg.php: Displays success or error messages.
-
-css/: Contains styling files (Bootstrap and custom styles).
-
-Technologies Used
-PHP: For data processing and database connection.
-
-MySQL: For storing user data.
-
-Bootstrap: For front-end styling.
-
-JavaScript: For form interactivity.
-
-License
-This project is licensed under the MIT License.
-
