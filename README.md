@@ -12,6 +12,21 @@ This project is a simple login and registration system built using PHP and MySQL
 - A homepage that displays the user's name after login.
 - Logout functionality.
 
+
+# Login and Registration System
+
+## Screenshots
+### Signup Page
+![Signup Page](screenshots/signUp.jpg)
+
+### Login Page
+![Login Page](screenshots/signIn.jpg)
+
+### Home Page After Login
+![Home Page](screenshots/home.jpg)
+
+
+
 ## Requirements
 
 - A web server with PHP support (e.g., XAMPP, WAMP, or MAMP).
@@ -31,16 +46,3 @@ This project is a simple login and registration system built using PHP and MySQL
    $db = 'login'; // Database name
 
 
-
-# Login and Registration System
-
-## Screenshots
-
-### Login Page
-![Login Page](screenshots/signIn.jpg)
-
-### Signup Page
-![Signup Page](screenshots/signUp.jpg)
-
-### Home Page After Login
-![Home Page](screenshots/home.jpg)
