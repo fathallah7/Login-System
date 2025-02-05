@@ -1,11 +1,11 @@
 <?php
 session_start();
 if (isset($_SESSION['msg'])) {
-    echo '<div id="msg" class="alert alert-success mt-4" role="alert">' . $_SESSION['msg'] . '</div>';
+    echo '<div id="msg" class="alert alert-success mt-0" role="alert">' . $_SESSION['msg'] . '</div>';
     unset($_SESSION['msg']);
 } elseif (isset($_SESSION['error'])) {
     echo '
-    <div id="msg" class="alert alert-danger alert-dismissible fade show mt-4" role="alert">
+    <div id="msg" class="alert alert-danger alert-dismissible fade show mt-0" role="alert">
     <strong>' . $_SESSION['error'] . '</strong>
     </div>';
     unset($_SESSION['error']);
