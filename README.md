@@ -32,13 +32,15 @@ This project is a simple login and registration system built using PHP and MySQL
 
 
 
-Screenshots
-Login Page
+# Login and Registration System
 
-Login Page
+## Screenshots
 
-Signup Page
-Signup Page
+### Login Page
+![Login Page](screenshots/signIn.jpg)
 
-Home Page After Login
-Home Page
+### Signup Page
+![Signup Page](screenshots/signUp.jpg)
+
+### Home Page After Login
+![Home Page](screenshots/home.jpg)
